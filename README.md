@@ -52,6 +52,7 @@ function birthdayCakeCandles(candles) {
 }
 
 ### Função 3 - kangaroo ###
+
 function kangaroo(x1, v1, x2, v2) {
 
      if (v1 === v2) {
@@ -67,5 +68,24 @@ function kangaroo(x1, v1, x2, v2) {
         return "YES";
     }
     return "NO";
+    
+}
+
+### Função 4 - timeConversion ###
+
+function timeConversion(s) {
+   
+    let hora = s.slice(0,8);
+    let periodo = s.slice(8);
+    
+    let [h, m, segun] = hora.split(":");
+    h = parseInt(h);
+    
+    if(periodo === "AM" && h === 12){
+        h = 0;
+    }else if (periodo === "PM" && h < 12){
+        h = h + 12;
+    }
+    return `${h}:${m}:${segun}`
     
 }
