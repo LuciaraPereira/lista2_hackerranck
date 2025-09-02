@@ -103,3 +103,21 @@ function timeConversion(s) {
 }
 
  </pre>
+
+### Função 5 - diagonalDifference ###
+
+ <pre>
+     function diagonalDifference(arr) {
+        let n = arr.length;
+        let principal = 0;
+        let secundaria = 0;
+
+    for (let i = 0; i < n; i++) {
+        principal += arr[i][i];
+        secundaria += arr[i][n - 1 - i];
+    }
+
+    return Math.abs(principal - secundaria);
+
+}
+ </pre>
