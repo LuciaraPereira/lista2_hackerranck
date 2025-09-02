@@ -2,7 +2,9 @@
 
 ### Função 1 -  gradingStudents ###
 
-function gradingStudents(grades) {
+
+<pre>
+    function gradingStudents(grades) {
 
     const resultado = []; 
     
@@ -29,8 +31,12 @@ function gradingStudents(grades) {
     
 }
 
+</pre>
+
 
 ### Função 2 - birthdayCakeCandles ####
+
+<pre>
 
 function birthdayCakeCandles(candles) {
 
@@ -50,8 +56,11 @@ function birthdayCakeCandles(candles) {
     return totalV;
     
 }
+ </pre>
 
 ### Função 3 - kangaroo ###
+
+<pre>
 
 function kangaroo(x1, v1, x2, v2) {
 
@@ -70,8 +79,11 @@ function kangaroo(x1, v1, x2, v2) {
     return "NO";
     
 }
+ </pre>
 
 ### Função 4 - timeConversion ###
+
+<pre>
 
 function timeConversion(s) {
    
@@ -89,3 +101,5 @@ function timeConversion(s) {
     return `${h}:${m}:${segun}`
     
 }
+
+ </pre>
